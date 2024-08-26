@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <center>
+        <form action="" method="post" class="modelo1">
+            <h1>Formulário de Contato<br/>
+            <span class="titulo2">Preencha todos os campos.</span>
+            </h1>
+            <div class="form-group">
+                <label for="name" class="rotulos">Nome:</label>
+                <input id="name" type="text" name="nome" placeholder="Nome completo" class="entrada" />
+            </div>
+            <div class="form-group">
+                <label for="email" class="rotulos">Email:</label>
+                <input id="email" type="email" name="email" placeholder="E-mail Válido." class="entrada" />
+            </div>
+            <div class="form-group">
+                <label for="assunto" class="rotulos">Assunto:</label>
+                <select id="assunto" name="opcoes" class="entrada">
+                    <option value=""></option>
+                    <option value="Dúvidas do produto">Dúvidas do produto</option>
+                    <option value="Atraso na entrega">Atraso na entrega</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mensagem" class="rotulos">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" class="entrada"></textarea>
+            </div>
+                <input type="button" value="Enviar" class="botao" />
+        </form>
+    </center>
+</body>
+</html>
